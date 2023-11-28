@@ -1,14 +1,10 @@
-require "multi_json"
-
 module JsonSpec
   module Helpers
     extend self
 
     def parse_json(json, path = nil)
-      ruby = MultiJson.decode("[#{json}]").first
+      ruby = JSON("[#{json}]").first
       value_at_json_path(ruby, path)
-    rescue MultiJson::DecodeError
-      MultiJson.decode(json)
     end
 
     def normalize_json(json, path = nil)

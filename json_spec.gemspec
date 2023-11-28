@@ -11,7 +11,6 @@ Gem::Specification.new do |gem|
   gem.homepage    = "https://github.com/KaiaHealth/json_spec"
   gem.license     = "MIT"
 
-  gem.add_dependency "multi_json", "~> 1.0"
   gem.required_ruby_version = '>= 3.0', '< 3.3'
    
   gem.add_dependency "rspec-core", ">= 3.0", "< 4.0"
