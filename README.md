@@ -1,5 +1,7 @@
 # json_spec
 
+[![main](https://github.com/KaiaHealth/json_spec/actions/workflows/main.yml/badge.svg)](https://github.com/KaiaHealth/json_spec/actions/workflows/main.yml)
+
 Attempt at a maintained frok from [collectiveidea/json_spec](https://github.com/collectiveidea/json_spec)
 
 Easily handle JSON in RSpec and Cucumber
